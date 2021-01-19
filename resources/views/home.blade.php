@@ -73,7 +73,8 @@
                             <button class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:bg-yellow-500 outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                                     type="button"
                                     style="transition: all 0.15s ease 0s;">
-                                <i class="fas fa-arrow-alt-circle-down mr-1"></i>Resume
+                                <i class="fas fa-arrow-alt-circle-down mr-1"></i>
+                                Resume
                             </button>
                         </li>
                     </ul>
@@ -281,7 +282,7 @@
                                        Full Stack Software Engineer Intern <span class="mt-4 text-lg leading-relaxed text-gray-900"> @ Ripe Metrics </span>
                                     </p>
                                     <p class="mt-4 text-md leading-relaxed text-gray-600">
-                                        August 2020 - Current
+                                        August 25, 2020 - January 25, 2021
                                     </p>
                                     <ul class="list-none mt-6">
                                         <li class="py-2">
@@ -338,7 +339,8 @@
                                                 </div>
                                                 <div>
                                                     <h4 class="text-gray-600">
-                                                        Carefully crafted components
+                                                        Work with software like ALTDS and VLIS to calculate flows and pressures to properly calibrate
+                                                        pneumatic valves for Boeing, Airbus, IAI, the military and various other customers.
                                                     </h4>
                                                 </div>
                                             </div>
@@ -350,7 +352,10 @@
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h4 class="text-gray-600">Amazing page examples</h4>
+                                                    <h4 class="text-gray-600">
+                                                        Collaborate closely in a team setting to identify current days needs to deliver a timely product
+                                                        to our customers
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -361,18 +366,22 @@
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h4 class="text-gray-600">Dynamic components</h4>
+                                                    <h4 class="text-gray-600">
+                                                        Ensure from assembly of product, all the way through to final preparation that the product is well
+                                                        taken care of, built right, and calibrated properly.
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                                 <div x-show="openTab === 3">
-{{--                                    <p class="mt-4 text-md leading-relaxed text-gray-600">--}}
-{{--                                        The extension comes with three pre-built pages to help you get--}}
-{{--                                        started faster. You can change the text and images and you're--}}
-{{--                                        good to go.--}}
-{{--                                    </p>--}}
+                                    <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                                        Software Engineer <span class="mt-4 text-lg leading-relaxed text-gray-900"> @ Your Company </span>
+                                    </p>
+                                    <p class="mt-4 text-md leading-relaxed text-gray-600">
+                                        Soon!
+                                    </p>
                                     <ul class="list-none mt-6">
                                         <li class="py-2">
                                             <div class="flex items-center">
@@ -382,65 +391,9 @@
                                                 </div>
                                                 <div>
                                                     <h4 class="text-gray-600">
-                                                        Carefully crafted components
+                                                       I would love an opportunity to work with you and your team at your company! Thanks for
+                                                        taking the time and looking over my site!
                                                     </h4>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="py-2">
-                                            <div class="flex items-center">
-                                                <div>
-                                                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-yellow-500 mr-3">
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h4 class="text-gray-600">Amazing page examples</h4>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="py-2">
-                                            <div class="flex items-center">
-                                                <div>
-                                                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-yellow-500 mr-3">
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h4 class="text-gray-600">Dynamic components</h4>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="py-2">
-                                            <div class="flex items-center">
-                                                <div>
-                                                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-yellow-500 mr-3">
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h4 class="text-gray-600">
-                                                        Carefully crafted components
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="py-2">
-                                            <div class="flex items-center">
-                                                <div>
-                                                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-yellow-500 mr-3">
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h4 class="text-gray-600">Amazing page examples</h4>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="py-2">
-                                            <div class="flex items-center">
-                                                <div>
-                                                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-yellow-500 mr-3">
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h4 class="text-gray-600">Dynamic components</h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -474,24 +427,22 @@
                         <div class="w-full lg:w-6/12 px-4">
                             <h2 class="text-4xl font-semibold text-gray-900">My Projects</h2>
                             <p class="text-lg leading-relaxed m-4 text-gray-900">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Cras bibendum ex non mauris consequat hendrerit. Maecenas vitae ante mollis,
-                                ullamcorper nisi eu, condimentum tortor.
+                               Here are just a few projects I have worked on!
                             </p>
                         </div>
                     </div>
                     <div class="flex flex-wrap">
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
-                                <img  alt="..."
-                                      src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                                      class="shadow-lg rounded-full max-w-full mx-auto"
-                                      style="max-width: 120px;"
+                                <img alt="portfolio site"
+                                     src="{{ asset('images/port_site.png') }}"
+                                     class="w-20 h-20 shadow-lg rounded-lg max-w-full mx-auto"
+                                     style="max-width: 120px;"
                                 />
                                 <div class="pt-6 text-center">
-                                    <h5 class="text-xl font-bold text-gray-900">Project # 1</h5>
-                                    <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                        Web Developer
+                                    <h5 class="text-xl font-bold text-gray-900">This site you're on!</h5>
+                                    <p class="mt-1 text-sm text-gray-500 font-semibold">
+                                        A simple laravel project using TailwindCSS, and Alpinejs
                                     </p>
                                 </div>
                             </div>
@@ -507,7 +458,7 @@
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">Project # 2</h5>
                                     <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                        Web Developer
+                                        Website
                                     </p>
                                 </div>
                             </div>
@@ -523,7 +474,7 @@
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">Project # 3</h5>
                                     <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                        Web Developer
+                                        Website
                                     </p>
                                 </div>
                             </div>
@@ -539,7 +490,7 @@
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">Project # 4</h5>
                                     <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                        Web Developer
+                                        Website
                                     </p>
                                 </div>
                             </div>
@@ -567,7 +518,7 @@
                 <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
                     <div class="flex flex-wrap text-center justify-center">
                         <div class="w-full lg:w-6/12 px-4 mx-8 my-8">
-                            <h2 class="text-4xl font-semibold text-white">Want to work with me?</h2>
+                            <h2 class="text-4xl font-semibold text-white">Want to get in contact?</h2>
                             <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                                 Complete this form and I will get back to you within 24 hours!
                             </p>
