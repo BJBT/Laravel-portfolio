@@ -436,8 +436,8 @@
                             <div class="px-6">
                                 <img alt="portfolio site"
                                      src="{{ asset('images/port_site.png') }}"
-                                     class="w-20 h-20 shadow-lg rounded-lg max-w-full mx-auto"
-                                     style="max-width: 120px;"
+                                     class="h-48 w-full shadow-lg rounded-lg mx-auto"
+                                     style=""
                                 />
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">This site you're on!</h5>
@@ -445,6 +445,18 @@
                                         A simple laravel project using TailwindCSS, and Alpinejs
                                     </p>
                                 </div>
+                                <ul>
+                                    <li class="py-2 mb-2">
+                                        <div class="flex items-center">
+                                            <div>
+                                                <a href="https://github.com/BJBT/Laravel-portfolio"
+                                                   class="m-2 p-2 text-gray-600 bg-yellow-500 text-center items-center justify-content-center shadow-lg rounded-lg">
+                                                    <i class="fab fa-github"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
