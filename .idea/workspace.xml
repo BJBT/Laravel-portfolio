@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b3c5794-d9f3-41a2-9185-9f4c0d2e9cd8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-start-tailwind-vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-start-tailwind-vue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
@@ -142,6 +145,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/laravel/browser-kit-testing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lNxBMRbGx8ZVf6q01LgGAo7Njt" />
@@ -175,11 +180,20 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.NavTest.clicking_on_the_github_icon_sends_you_to_my_github">
+    <configuration name="NavTest.clicking_on_the_github_icon_sends_you_to_my_github" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\NavTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/NavTest.php" method="clicking_on_the_github_icon_sends_you_to_my_github" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.NavTest.clicking_on_the_github_icon_sends_you_to_my_github" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,7 +205,7 @@
       <updated>1607451214035</updated>
       <workItem from="1607451215229" duration="15568000" />
       <workItem from="1607543811828" duration="12113000" />
-      <workItem from="1610845306625" duration="12347000" />
+      <workItem from="1610845306625" duration="13624000" />
     </task>
     <servers />
   </component>
@@ -211,10 +225,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="500" height="400" key="SwitcherDM" timestamp="1611040005242">
+    <state x="-229" y="-918" key="#PHP" timestamp="1611040722173">
       <screen x="-625" y="-1057" width="2560" height="1057" />
     </state>
-    <state width="500" height="400" key="SwitcherDM/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611040005242" />
+    <state x="-229" y="-918" key="#PHP/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611040722173" />
+    <state width="1283" height="262" key="GridCell.Tab.0.bottom" timestamp="1611075354714">
+      <screen x="-625" y="-1057" width="2560" height="1057" />
+    </state>
+    <state width="1283" height="262" key="GridCell.Tab.0.bottom/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611075354714" />
+    <state width="1283" height="262" key="GridCell.Tab.0.center" timestamp="1611075354713">
+      <screen x="-625" y="-1057" width="2560" height="1057" />
+    </state>
+    <state width="1283" height="262" key="GridCell.Tab.0.center/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611075354713" />
+    <state width="1283" height="262" key="GridCell.Tab.0.left" timestamp="1611075354712">
+      <screen x="-625" y="-1057" width="2560" height="1057" />
+    </state>
+    <state width="1283" height="262" key="GridCell.Tab.0.left/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611075354712" />
+    <state width="1283" height="262" key="GridCell.Tab.0.right" timestamp="1611075354714">
+      <screen x="-625" y="-1057" width="2560" height="1057" />
+    </state>
+    <state width="1283" height="262" key="GridCell.Tab.0.right/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611075354714" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1611040865507">
+      <screen x="-625" y="-1057" width="2560" height="1057" />
+    </state>
+    <state width="500" height="400" key="SwitcherDM/-625.-1057.2560.1057/0.23.1440.824@-625.-1057.2560.1057" timestamp="1611040865507" />
     <state width="500" height="400" key="SwitcherDM/-625.-1057.2560.1057/0.23.1440.824@0.23.1440.824" timestamp="1611005557396" />
     <state width="500" height="400" key="SwitcherDM/0.23.1440.824@0.23.1440.824" timestamp="1610987879440" />
     <state x="215" y="206" width="670" height="527" key="search.everywhere.popup" timestamp="1611005074482">
