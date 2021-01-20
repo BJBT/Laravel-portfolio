@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
         <title>Personal Portfolio Site</title>
     </head>
     <body class="antialiased w-100 h-100 mx-0 my-0 px-0 py-0">
@@ -437,7 +438,7 @@
                             <div class="px-6">
                                 <img alt="portfolio site"
                                      src="{{ asset('images/port_site.png') }}"
-                                     class="h-48 w-full shadow-lg rounded-lg mx-auto"
+                                     class="h-48 w-full shadow-2xl rounded-lg mx-auto"
                                      style=""
                                 />
                                 <div class="pt-6 text-center">
@@ -462,11 +463,10 @@
                         </div>
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
-                                <img
-                                        alt="..."
-                                        src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                                        class="shadow-lg rounded-full max-w-full mx-auto"
-                                        style="max-width: 120px;"
+                                <img alt="..."
+                                     src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                     class="shadow-lg rounded-full max-w-full mx-auto"
+                                     style="max-width: 120px;"
                                 />
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">Project # 2</h5>
