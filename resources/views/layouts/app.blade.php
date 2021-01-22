@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name') }}@hasSection('title'){{ ' - ' }}@yield('title')@endif</title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito:300,400,500,600,700&display=swap">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none">
