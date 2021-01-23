@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
 {{--        <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
-        <link rel="shortcut icon" href="{{ url('favicon.png') }}">
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
@@ -437,7 +437,7 @@
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
                                 <img alt=""
-                                     src="{{ asset('images/port_site.png') }}"
+                                     src="{{ asset('/storage/images/port_site.png') }}"
                                      class="h-48 w-full shadow-2xl rounded-lg mx-auto"
                                 />
                                 <div class="pt-6 text-center">
