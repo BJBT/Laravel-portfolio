@@ -436,10 +436,9 @@
                     <div class="flex flex-wrap">
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
-                                <img alt="portfolio site"
-                                     src="{{ url('images/port_site.png') }}"
+                                <img alt=""
+                                     src="{{ asset('images/port_site.png') }}"
                                      class="h-48 w-full shadow-2xl rounded-lg mx-auto"
-                                     style=""
                                 />
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">This site you're on!</h5>
