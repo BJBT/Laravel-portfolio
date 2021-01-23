@@ -1,15 +1,7 @@
 /node_modules
-/public/hot
-/public/storage
-/public/vendor
 /storage/*.key
 /storage/tmp
 /vendor
-
-# Default assets
-/public/demo.html
-/public/mix-manifest.json
-/public/sitemap*.xml
 
 .phpunit.result.cache
 Homestead.json
