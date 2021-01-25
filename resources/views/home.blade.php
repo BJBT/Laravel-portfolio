@@ -437,7 +437,7 @@
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
                                 <img alt=""
-                                     src="{{ asset('storage/port_site.png') }}"
+                                     src="{{ asset('images/port_site.png') }}"
                                      class="h-48 w-full shadow-2xl rounded-lg mx-auto"
                                 />
                                 <div class="pt-6 text-center">
