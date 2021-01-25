@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
-        <title>Personal Portfolio Site</title>
+        <title>Blayne Bennett's Portfolio</title>
     </head>
     <body class="antialiased w-100 h-100 mx-0 my-0 px-0 py-0">
         {{--NAV--}}
@@ -438,20 +438,20 @@
                             <div class="px-6">
                                 <img alt=""
                                      src="{{ asset('images/port_site.png') }}"
-                                     class="h-48 w-full shadow-2xl rounded-lg mx-auto"
+                                     class="h-46 w-full shadow-2xl rounded-lg mx-auto"
                                 />
                                 <div class="pt-6 text-center">
                                     <h5 class="text-xl font-bold text-gray-900">This site you're on!</h5>
-                                    <p class="mt-1 text-sm text-gray-500 font-semibold">
+                                    <p class="mt-1 text-sm text-gray-300 font-semibold">
                                         A simple laravel project using TailwindCSS, and Alpinejs
                                     </p>
                                 </div>
                                 <ul>
-                                    <li class="py-2 mb-2">
+                                    <li class="py-2 mt-2">
                                         <div class="flex items-center">
                                             <div>
                                                 <a href="https://github.com/BJBT/Laravel-portfolio"
-                                                   class="m-2 p-2 text-gray-600 bg-yellow-500 text-center items-center justify-content-center shadow-lg rounded-lg">
+                                                   class="m-4 p-2 text-gray-600 bg-yellow-500 shadow-lg rounded-lg">
                                                     <i class="fab fa-github"></i>
                                                 </a>
                                             </div>
@@ -462,17 +462,34 @@
                         </div>
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
-                                <img alt="..."
-                                     src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                                     class="shadow-lg rounded-full max-w-full mx-auto"
-                                     style="max-width: 120px;"
+                                <img alt=""
+                                     src="{{ asset('images/fluv.png') }}"
+                                     class="h-46 w-full shadow-2xl rounded-lg mx-auto"
                                 />
                                 <div class="pt-6 text-center">
-                                    <h5 class="text-xl font-bold text-gray-900">Project # 2</h5>
-                                    <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                        Website
+                                    <h5 class="text-xl font-bold text-gray-900">Fluvvia</h5>
+                                    <p class="mt-1 text-sm text-gray-300 font-semibold">
+                                        A white label small business management software built using Laravel / PHP, and TailwindCSS.
                                     </p>
                                 </div>
+                                <ul>
+                                    <li class="py-2 mt-2">
+                                        <div class="flex items-center">
+                                            <div>
+                                                <a href="https://github.com/BJBT/Laravel-portfolio"
+                                                   class="m-4 p-2 text-gray-600 bg-yellow-500 shadow-lg rounded-lg">
+                                                    <i class="fab fa-github"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="https://fluv.com"
+                                                   class="m-4 p-2 text-gray-600 bg-yellow-500 shadow-lg rounded-lg">
+                                                    <i class="fas fa-globe-americas"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
@@ -605,6 +622,3 @@
     </script>
 </html>
 
-
-
-6191 2196 1801 2729
