@@ -481,12 +481,12 @@
                                                     <i class="fab fa-github"></i>
                                                 </a>
                                             </div>
-                                            <div>
-                                                <a href="https://fluv.com"
-                                                   class="m-4 p-2 text-gray-600 bg-yellow-500 shadow-lg rounded-lg">
-                                                    <i class="fas fa-globe-americas"></i>
-                                                </a>
-                                            </div>
+{{--                                            <div>--}}
+{{--                                                <a href="https://fluv.com"--}}
+{{--                                                   class="m-4 p-2 text-gray-600 bg-yellow-500 shadow-lg rounded-lg">--}}
+{{--                                                    <i class="fas fa-globe-americas"></i>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
                                         </div>
                                     </li>
                                 </ul>
