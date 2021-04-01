@@ -4,9 +4,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-{{--        <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+{{--        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>--}}
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
         <title>Blayne Bennett's Portfolio</title>
@@ -152,12 +152,12 @@
                                         <div class="flex items-center">
                                             <div>
                                                 <span class="mr-2 text-gray-600 bg-yellow-500 p-3 text-center items-center justify-center w-10 h-10 shadow-lg rounded-full"
-                                                ><i class="fab fa-laravel"></i
+                                                ><i class="fab fa-php"></i
                                                     ></span>
                                             </div>
                                             <div>
                                                 <h4 class="text-gray-800">
-                                                    Laravel
+                                                    PHP
                                                 </h4>
                                             </div>
                                         </div>
@@ -166,12 +166,12 @@
                                         <div class="flex items-center">
                                             <div>
                                                 <span class="mr-2 text-gray-600 bg-yellow-500 p-3 text-center items-center justify-center w-10 h-10 shadow-lg rounded-full"
-                                                ><i class="fab fa-php"></i
+                                                ><i class="fab fa-laravel"></i
                                                     ></span>
                                             </div>
                                             <div>
                                                 <h4 class="text-gray-800">
-                                                    PHP
+                                                    Laravel
                                                 </h4>
                                             </div>
                                         </div>
@@ -556,63 +556,6 @@
                     </div>
                 </div>
             </section>
-{{--            <section class="relative block py-24 lg:pt-0 bg-gray-800">--}}
-{{--                <div class="container mx-auto px-4">--}}
-{{--                    <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">--}}
-{{--                        <div class="w-full lg:w-6/12 px-4">--}}
-{{--                            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">--}}
-{{--                                <div class="flex-auto p-5 lg:p-10">--}}
-{{--                                    <div class="relative w-full mb-3 mt-8">--}}
-{{--                                        <label--}}
-{{--                                                class="block uppercase text-gray-700 text-xs font-bold mb-2"--}}
-{{--                                                for="full-name"--}}
-{{--                                        >Full Name</label--}}
-{{--                                        ><input--}}
-{{--                                                type="text"--}}
-{{--                                                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"--}}
-{{--                                                placeholder="Full Name"--}}
-{{--                                                style="transition: all 0.15s ease 0s;"--}}
-{{--                                        />--}}
-{{--                                    </div>--}}
-{{--                                    <div class="relative w-full mb-3">--}}
-{{--                                        <label--}}
-{{--                                                class="block uppercase text-gray-700 text-xs font-bold mb-2"--}}
-{{--                                                for="email"--}}
-{{--                                        >Email</label--}}
-{{--                                        ><input--}}
-{{--                                                type="email"--}}
-{{--                                                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"--}}
-{{--                                                placeholder="Email"--}}
-{{--                                                style="transition: all 0.15s ease 0s;"--}}
-{{--                                        />--}}
-{{--                                    </div>--}}
-{{--                                    <div class="relative w-full mb-3">--}}
-{{--                                        <label--}}
-{{--                                                class="block uppercase text-gray-700 text-xs font-bold mb-2"--}}
-{{--                                                for="message"--}}
-{{--                                        >Message</label--}}
-{{--                                        ><textarea--}}
-{{--                                                rows="4"--}}
-{{--                                                cols="80"--}}
-{{--                                                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"--}}
-{{--                                                placeholder="Type a message..."--}}
-{{--                                        ></textarea>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="text-center mt-6">--}}
-{{--                                        <button--}}
-{{--                                                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"--}}
-{{--                                                type="button"--}}
-{{--                                                style="transition: all 0.15s ease 0s;"--}}
-{{--                                        >--}}
-{{--                                            Send Message--}}
-{{--                                        </button>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </section>--}}
         </main>
     </body>
     <script>

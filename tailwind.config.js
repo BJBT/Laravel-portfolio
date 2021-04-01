@@ -134,7 +134,11 @@ module.exports = {
     },
     extend: {},
   },
-  variants: {},
+  variants: {
+    extend: {
+      backgroundColor: ['group-focus'],
+    }
+  },
   plugins: [
     require('@tailwindcss/custom-forms')
   ],
