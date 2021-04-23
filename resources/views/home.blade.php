@@ -494,16 +494,15 @@
                         </div>
                         <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                             <div class="px-6">
-                                <img
-                                        alt="..."
-                                        src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                                        class="shadow-lg rounded-full max-w-full mx-auto"
-                                        style="max-width: 120px;"
+                                <img alt=""
+                                     src="{{ asset('images/ripe.png') }}"
+                                     class="h-46 w-full shadow-2xl rounded-lg mx-auto"
                                 />
                                 <div class="pt-6 text-center">
-                                    <h5 class="text-xl font-bold text-gray-900">Project # 3</h5>
-                                    <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                        Website
+                                    <h5 class="text-xl font-bold text-gray-900">Ripe Metrics</h5>
+                                    <p class="mt-1 text-sm text-gray-300 font-semibold">
+                                        An analytic based marketing platform focusing on customer retention and satisfaction.
+
                                     </p>
                                 </div>
                             </div>
